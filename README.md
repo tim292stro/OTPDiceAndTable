@@ -5,6 +5,7 @@ Usage:
 * Throw the die twice for each character of a One-Time-Pad
 * Record the character that appears for the combination of the two throws
 * Rinse-repeat until you have your key length
+* Put the die back where you got it
 * Exchange the OTP with the other person who you are conversing with
   
 Encrypting:

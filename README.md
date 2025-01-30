@@ -2,7 +2,8 @@ This is a simple one-pager PDF, based on the youtube video: https://www.youtube.
   
 Usage:
 * Get a 6-sided Die
-* Throw twice for each character of a One-Time-Pad
+* Throw the die twice for each character of a One-Time-Pad
+* Record the character that appears for the combination of the two throws
 * Rinse-repeat until you have your key length
 * Exchange the OTP with the other person who you are conversing with
   
@@ -19,11 +20,11 @@ Decrypting:
 * Follow the row for the cypher-text character to the letter on the plain-text out column to the right, write down the character in the plain-text out
 * Where the output characters match the OTP stream's characters, find the end of the message and discard the rest of the letters
   
-Bonus skill:
-* For plausible denayability, create a new plaintext message
+Bonus skill, for plausible denayability:
+* Create a new plaintext message
 * Generate a new "OTP stream" finding the row for each plain-text character
 * Find the column on that plain-text character's row where the cipher character is
 * Record the OTP character at the top row of that column ("Key In") to the spoofed OTP
 * Rinse repeat to the end of message, fill the rest of the OTP with the cipher text following the end of your new message
-* Destroy the true OPT and true message
-* Retain the false OTP and false message
+* Fully destroy the true OPT and true message
+* Retain the false OTP and false message, make a weak attempt to conceal the flase OTP and false message

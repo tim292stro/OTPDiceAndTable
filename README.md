@@ -23,7 +23,7 @@ This is a simple one-pager PDF, based on the youtube video: https://www.youtube.
 * Where the cypher-text characters match the OTP stream's characters, you'll find the end of the message, and may discard the rest of the letters
 * Destroy that OTP and the message... OR (see next section)
   
-# Bonus skill, for plausible denayability:
+# Bonus skill, for plausible denyability:
 * Create a new plaintext message, unrelated to the decrypted message
 * Generate a new "OTP stream" finding the row for each plain-text character:
  * Find the column on that plain-text character's row where the cipher character is

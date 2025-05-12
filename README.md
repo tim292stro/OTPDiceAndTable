@@ -30,4 +30,4 @@ This is a simple one-pager PDF, based on the youtube video: https://www.youtube.
  * Record the OTP character at the top row of that column ("Key In") to the spoofed OTP
  * Rinse repeat to the end of message, fill the rest of the OTP with the cipher text following the end of your new message
  * Fully destroy the true OPT and true message
- * Retain the false OTP and false message, make a weak attempt to conceal the flase OTP and false message
+ * Retain the false OTP and false message, make a weak attempt to conceal the false OTP and false message
